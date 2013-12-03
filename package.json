@@ -1,0 +1,19 @@
+{
+  "name": "stream-jaccard",
+  "repo": "stagas/stream-jaccard",
+  "version": "0.0.1",
+  "author": "stagas",
+  "description": "calculate jaccard index for two sorted streams of data",
+  "keywords": ["jaccard", "relevancy", "similarity", "recommendations"],
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "domain-capture": "~0.0.1",
+    "count-stream": "~0.0.2",
+    "stream-joins": "~0.1.2"
+  },
+  "devDependencies": {
+    "event-stream": "~3.0.16"
+  },
+  "engines": { "node": "*" }
+}
